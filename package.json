@@ -1,0 +1,26 @@
+{
+  "name": "ionic1-search",
+  "sideEffects": false,
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "repository": "https://github.com/ndrewleonardi2/ionic1-search.git",
+  "author": "Andrew Leonardi <ndrewleonardi2@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.2.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
